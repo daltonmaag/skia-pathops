@@ -21,7 +21,7 @@ jobs:
         os: [ubuntu-latest, macos-latest]
         platform: [x64]
         exclude:
-          - platform: macos-latest
+          - os: macos-latest
             python-version: "pypy-3.7"
     env:
       REPO_DIR: "."
